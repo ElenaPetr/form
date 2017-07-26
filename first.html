@@ -2,24 +2,25 @@
 <meta charset = "utf-8">
 <head>
 <title> form</title>
+<link rel="stylesheet" type ="text/css" href="main.css">
 </head>
 <body> 
 <h1>Форма регистрации</h1>
 <p>указывайте только правдивую информацию</p>
 
 <form method=''post">
-<label for="login-field">Ваш логин</label>
-<input id="login-field" type ="text" name="login">
+<label for="login-field" >логин</label>
+<input id="login-field" type ="text" name="login" placeholder="Ваш логин">
 <br><br>
-<label for="password-field">Ваш пароль</label>
-<input type="password" name="password" id="password-field">
+<label for="password-field">пароль</label>
+<input type="password" name="password" id="password-field" placeholder="Ваш пароль">
 <br><br>
-<label for="password-verify-field">Подтверждение  пароля</label>
-<input type="password" name="password-verify" id="password-verify-field">
+<label for="password-verify-field">подтвердите  пароль</label>
+<input type="password" name="password-verify" id="password-verify-field"placeholder="Ваш пароль">
 <br><br>
 
 
-<input type="submit" value="отправить">
+<input id="sub" type="submit" value="отправить">
 <br><br>
 
 <input type="checkbox" checked name="subscribe" id="subscribe-field">
