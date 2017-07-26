@@ -1,13 +1,31 @@
+* {
+box-sizing: border-box;
+margin:0;
+
+}
 body {
-margin:20px auto;
-width:1000px;
-background:linear-gradient(to right, white,yellow);
+background:linear-gradient(to right, white 45%,yellow 90%);
 color:grey;
 font-family:Arial;
 font-weight:bold;
 }
-h1{
+main {
+width:518px;
+margin:20px auto;
+color:grey;
+font-family:Arial;
+font-weight:bold;
+
+}
+h1, p{
+text-align:center;
 font-size:30px;
+}
+
+p {
+font-size:20px;
+line-height:60px;
+margin-bottom:10px;
 }
 label {
 font-size:25px;
