@@ -27,6 +27,13 @@ font-size:20px;
 line-height:60px;
 margin-bottom:10px;
 }
+
+#f1 {
+width:600px;
+}
+tr {
+width:300px;
+}
 label {
 font-size:25px;
 }
@@ -36,6 +43,7 @@ font-size:20px;
 background-color:whitesmoky;
 border-radius:5px;
 transition:background-color .5s linear .3s;
+
 }
 input:hover{
 background-color:yellow;
@@ -43,5 +51,6 @@ background-color:yellow;
 #sub{
 font-weight:bold;
 color:grey;
+width:530px;
 
 }

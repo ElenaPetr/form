@@ -9,25 +9,31 @@
 <h1>Форма регистрации</h1>
 <p>указывайте только правдивую информацию</p>
 
-<form method=''post">
-<label for="login-field" >логин</label>
-<input id="login-field" type ="text" name="login" placeholder="Ваш логин">
-<br><br>
-<label for="password-field">пароль</label>
-<input type="password" name="password" id="password-field" placeholder="Ваш пароль">
-<br><br>
-<label for="password-verify-field">подтвердите  пароль</label>
-<input type="password" name="password-verify" id="password-verify-field"placeholder="Ваш пароль">
-<br><br>
-
-
-<input id="sub" type="submit" value="отправить">
-<br><br>
-
-<input type="checkbox" checked name="subscribe" id="subscribe-field">
-<label for="subscribe-field">Подписать Вас на рассылку?</label>
-
+   <form method=''post" id="f1">
+    <table class="form">
+      <tr>
+         <td><label for="login-field" >логин</label></td>
+         <td><input id="login-field" type ="text" name="login" placeholder="Ваш логин"></td>
+      </tr>
+      <tr>
+         <td><label for="password-field">пароль</label></td>
+         <td><input type="password" name="password" id="password-field" placeholder="Ваш пароль"></td>
+      </tr>
+	   <tr>
+         <td><label for="password-verify-field">подтвердите  пароль</label></td>
+         <td><input type="password" name="password-verify" id="password-verify-field"placeholder="Ваш пароль"></td>
+      </tr>
+      <tr>
+		<td><label for id="em">Ваш email</label></td>
+         <td><input type="email" id="em" placeholder="ваш email"></td>
+       </tr>
+      
+<tr><td colspan="2"><input type="checkbox" checked name="subscribe" id="subscribe-field">
+<label for="subscribe-field">Подписать Вас на рассылку?</label></td></tr>
+ <tr><td colspan="2"><input id="sub" type="submit" value="отправить"></td></tr>
+</table>
 </form>
+
 </main>
 
 
