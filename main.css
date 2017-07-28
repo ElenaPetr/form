@@ -1,15 +1,16 @@
 * {
-box-sizing: border-box;
+/*box-sizing: border-box;*/
 margin:0;
 
 }
 body {
-background:linear-gradient(to right, white 45%,yellow 90%);
+height:680px;
+background:linear-gradient(45deg, white,yellow);
 color:grey;
 font-family:Arial;
-font-weight:bold;
 }
-main {
+
+.main{
 width:518px;
 margin:20px auto;
 color:grey;
@@ -43,5 +44,6 @@ background-color:yellow;
 #sub{
 font-weight:bold;
 color:grey;
-
 }
+
+
